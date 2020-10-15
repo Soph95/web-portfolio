@@ -1,0 +1,54 @@
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    width: 10%;
+    border-style: groove;
+}
+.fa-caret-down {
+    font-size: 5rem;
+    margin: 150px 0 0 640px; 
+}
+
+#topSection h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-top: 0;
+    font-size: 5rem;
+}
+
+#topSection h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    margin-right: 50px;
+}
+
+#topSection p {
+    width: 40%;
+    margin: auto;
+}
+
+#navBar a, #navBar ul, #navBar li {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    display: inline-block;
+    margin: 10px;
+    font-weight: 900;
+   
+}
+
+#projectSection {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
