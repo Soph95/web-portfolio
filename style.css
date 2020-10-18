@@ -1,6 +1,5 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: red;
 }
 
 h1 {
@@ -10,24 +9,23 @@ h1 {
 
 hr {
     width: 10%;
-    border: solid 100px;
+    border: solid 1px; 
    
 }
 .fa-caret-down {
-    font-size: 5rem;
+    font-size: 7rem;
     margin: 100px 0 0 640px; 
 }
 
 #topSection h1 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
-    margin-top: 0;
-    font-size: 5rem;
+    margin-bottom: 50px;
+    font-size: 6rem;
     font-weight: 700;
 }
 
 #topSection h3 {
-    font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-top: 50px;
     margin-right: 50px;
@@ -38,16 +36,6 @@ hr {
 #topSection p {
     width: 40%;
     margin: auto;
-}
-
-#navBar a, #navBar ul, #navBar li {
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
-    display: inline-block;
-    margin: 10px;
-    font-weight: 900;
-   
 }
 
 #projectSection {
