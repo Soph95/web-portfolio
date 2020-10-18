@@ -1,33 +1,38 @@
-body {
+html, body {
+    height: 100%;
     font-family: 'Raleway', sans-serif;
+    
 }
 
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
 }
 
 hr {
     width: 10%;
     border: solid 1px; 
+    margin-top: 30px;
    
 }
 .fa-caret-down {
     font-size: 7rem;
-    margin: 100px 0 0 640px; 
+    margin: 100px 0 0 600px; 
 }
 
 #topSection h1 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 10px 0 30px 0;
     font-size: 6rem;
     font-weight: 700;
 }
 
 #topSection h3 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-right: 50px;
     font-size: 1.1rem;
     font-weight: bolder;
@@ -38,10 +43,40 @@ hr {
     margin: auto;
 }
 
-#projectSection {
-    text-align: center;
-    margin-top: 50px;
+.box1{
+    background-color: grey;
+    padding: 5px;
+    margin: 50px;
+    border-radius: 3%;
 }
+
+#aboutmeSection div {
+    text-align: center;
+    margin: 50px;
+} 
+
+#aboutmeSection p {
+    text-align: left;
+    width: 30%;
+    float: left;
+    margin-left: 150px;
+
+}
+
+#aboutmeSection img {
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 10%;
+    margin-right: 100px;
+}
+
+
+/* #aboutmeSection div { 
+text-align: center;
+padding-top: 20px;
+} */
+
 
 
 
