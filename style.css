@@ -195,6 +195,16 @@ hr {
   margin-bottom: 20px;
 }
 
+.technologies {
+  display: inline-block;
+  margin: 50px;
+  color: #000;
+}
+
+.technologies p {
+  font-size: 1.1rem;
+}
+
 .card {
   width: 400px;
   height: 400px;
