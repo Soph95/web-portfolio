@@ -4,52 +4,42 @@ body {
   width: 100%;
   font-family: "Raleway", sans-serif;
   scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+  overflow-x: hidden;
 }
 
 h1 {
-  margin-bottom: 20px;
-  position: relative;
-}
-
-hr {
-  width: 15%;
-  border: solid 1px black;
   margin-bottom: 30px;
 }
 
+#projectSection,
+#aboutmeSection,
+#skills {
+  text-align: center;
+  margin-top: 80px;
+  position: relative;
+}
+
+/* Navbar */
+
 .nav-link {
   font-size: 1.1rem;
-  margin-right: 40px;
-  font-weight: 500;
+  margin-right: 35px;
 }
 
 .nav-link:hover {
-  color: grey;
+  color: #000;
 }
 
 .navbar {
   background-color: #fff;
 }
 
-/*.aboutme::after {
-  content: "";
-  background-color: #000;
-  display: block;
-  height: 2px;
-  width: 100%;
-  display: none;
-}
-
-.show:hover .aboutme::after {
-  display: block;
-}*/
+/* Top Section */
 
 .bg-pic {
   background-image: url(Img/bg-img.jpg);
-  padding-top: 100px;
-}
-
-.paral {
+  padding-top: 110px;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -60,9 +50,38 @@ hr {
   border: solid 1px;
 }
 
+#topSection {
+  color: #fff;
+  text-align: center;
+  height: 600px;
+}
+
+#topSection h1 {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 0;
+  font-size: 7rem;
+  font-weight: 800;
+}
+
+#topSection h3 {
+  margin: 20px 50px 0 0;
+  font-size: 1.1rem;
+}
+
+#topSection p {
+  margin: auto;
+  font-size: 1.1rem;
+}
+
 .fa-sort-down {
   color: #fff;
   margin-top: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .arrow {
+    display: none;
+  }
 }
 
 .bounce {
@@ -89,35 +108,7 @@ hr {
   }
 }
 
-#topSection {
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  height: 600px;
-}
-
-#topSection h1 {
-  font-family: "Dancing Script", cursive;
-  margin-bottom: 20px;
-  font-size: 6rem;
-  font-weight: 700;
-}
-
-/*::before,
-::after {
-  box-sizing: inherit;
-}*/
-
-#topSection h3 {
-  margin: 20px 50px 0 0;
-  font-size: 1.2rem;
-}
-
-#topSection p {
-  width: 40%;
-  margin: auto;
-  font-size: 1.1rem;
-}
+/* Heading line styling */
 
 .lines::before {
   content: "";
@@ -143,98 +134,102 @@ hr {
   z-index: -2;
 }
 
+#skills span,
 #projectSection span,
 #aboutmeSection span {
   background: #fff;
 }
 
-#projectSection,
-#aboutmeSection {
-  text-align: center;
-  margin: 40px;
-  margin-top: 60px;
-  position: relative;
-}
-
-#projectSection {
-  margin-top: 90px;
-}
+/* About Section */
 
 #aboutmeSection p {
   text-align: left;
-  width: 40%;
-  float: left;
-  margin-left: 150px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 #aboutmeSection img {
-  height: 400px;
-  width: 300px;
-  display: inline-block;
+  width: 60%;
+  margin-top: 30px;
   border-radius: 50%;
-  margin-right: 100px;
 }
 
 #aboutmeSection a {
   text-decoration: none;
-  color: #000;
+  color: #ef4339;
   font-weight: bold;
 }
 
 #aboutmeSection a:hover {
-  color: grey;
+  color: #000;
 }
 
-.btn-dark {
-  margin: 40px 550px 0 0;
+.resume {
+  margin-top: 20px;
+}
+
+/* Skills Section */
+
+#skills .jumbotron {
+  background-color: #ef4339;
+  color: #fff;
+}
+
+.skills-heading {
+  font-size: 1.3rem;
 }
 
 .tech {
   margin: 10px;
-  margin-bottom: 20px;
 }
 
 .technologies {
   display: inline-block;
-  margin: 50px;
-  color: #000;
+  margin: 30px;
+  color: #fff;
 }
 
-.technologies p {
-  font-size: 1.1rem;
-}
+/* Project Cards */
 
 .card {
   width: 400px;
   height: 400px;
   margin: auto;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
-#contactSection {
-  text-align: center;
-  margin: 50px 0 0 0;
-  background-image: url(Img/bg-img.jpg);
-  background-size: cover;
+.btn {
+  background-color: #ef4339;
   color: #fff;
 }
 
-#contactSection p {
-  font-size: 15px;
+.btnleft {
+  margin-right: 20px;
+}
+
+/* Contact Section */
+
+#contactSection {
+  text-align: center;
+  font-size: 1rem;
+  background-image: url("Img/bg-img.jpg");
+  color: #fff;
+  padding: 20px 0 20px 0;
 }
 
 #contactSection hr {
   width: 10%;
   border: 1px solid #fff;
+  margin-top: 0;
+}
+
+#contactSection p {
+  margin: 0;
 }
 
 .socials {
+  font-size: 1.5rem;
   margin: 15px;
-}
-
-.socials {
-  font-size: 25px;
   color: #fff;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -244,7 +239,7 @@ hr {
 }
 
 .socials:hover {
-  color: grey;
+  color: #000;
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
