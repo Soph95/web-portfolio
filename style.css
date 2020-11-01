@@ -217,6 +217,10 @@ h1 {
   padding: 20px 0 20px 0;
 }
 
+#contactSection h3 {
+  font-size: 2rem;
+}
+
 #contactSection hr {
   width: 10%;
   border: 1px solid #fff;
