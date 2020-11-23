@@ -191,8 +191,8 @@ h1 {
 /* Project Cards */
 
 .card {
-  width: 520px;
-  height: 520px;
+  width: 530px;
+  height: 530px;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 50px;
@@ -258,4 +258,8 @@ h1 {
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
+}
+
+.tech:hover {
+  color: #000;
 }
