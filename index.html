@@ -1,157 +1,261 @@
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sophia McGeown</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sophia McGeown</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Raleway:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-  <link rel="manifest" href="favicon_io/site.webmanifest">
-</head>
+  <body>
+    <!-- Navbar -->
+    <div>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<body>
-  <!-- Navbar -->
-  <div>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link aboutme" href="#topSection">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link aboutme" href="#aboutmeSection">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projectSection">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contactSection">Contact</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link aboutme" href="#topSection">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aboutme" href="#aboutmeSection">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projectSection">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactSection">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Top Section -->
+      <div id="topSection" class="bg-pic jumbotron">
+        <h3>Hey, I'm</h3>
+        <h1>Sophia McGeown</h1>
+        <hr />
+        <p>An aspiring Software Engineer.</p>
+        <div class="arrow">
+          <a href="#aboutmeSection"
+            ><i class="fas fa-sort-down fa-7x bounce"></i
+          ></a>
+        </div>
       </div>
-    </nav>
-    <!-- Top Section -->
-    <div id="topSection" class="bg-pic jumbotron">
-      <h3>Hey, I'm</h3>
-      <h1>Sophia McGeown</h1>
-      <hr>
-      <p>An aspiring Software Engineer.</p>
-      <div class="arrow">
-        <a href="#aboutmeSection"><i class="fas fa-sort-down fa-7x bounce"></i></a>
+      <!-- About Section -->
+      <div id="aboutmeSection">
+        <h1 class="lines"><span>ABOUT ME</span></h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <img src="Img/me.JPG" alt="Sophia picture" />
+            </div>
+            <div class="col-md-6">
+              <p>
+                Hi! I'm Sophia, I am a keen learner based in London, wanting to
+                start a career in Software Engineering. <br />
+                <br />
+                I am passionate about developing and growing as an individual
+                and I enjoy learning new things, which is what initially sparked
+                my interest in a career in tech. Since then I have taken part in
+                various online courses including an eight week introduction to
+                web development course run by
+                <a href="https://codefirstgirls.org.uk/" target="_blank"
+                  >Code First Girls</a
+                >.<br />
+                <br />I most recently graduated from the Tech Talent Accelerator
+                course run by
+                <a href="https://uk.generation.org/" target="_blank"
+                  >Generation UK</a
+                >, where I have learnt core IT and coding skills including
+                technologies such as HTML, CSS and JavaScript as well as using
+                Git for version control and GitHub.<br />
+                <br />The course has developed both my technical abilities and
+                soft skills. It also provided me with opportunities to be
+                creative and collaborate with team members, whilst equipping me
+                with the knowledge to feel confident to kickstart my career.
+              </p>
+              <a href="cv/Sophia McGeown CV.pdf" target="_blank"
+                ><button type="button" class="btn resume">
+                  Download Resume
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-   <!-- About Section -->
-    <div id="aboutmeSection">
-      <h1 class="lines"><span>ABOUT ME</span></h1>
-      <div class="container">
+      <!-- Skills Section -->
+      <div id="skills">
+        <div class="jumbotron">
+          <p class="skills-heading">Technologies I have been using:</p>
+          <div class="technologies">
+            <i class="fab fa-html5 fa-4x tech"></i>
+            <p>HTML</p>
+          </div>
+          <div class="technologies">
+            <i class="fab fa-css3-alt fa-4x tech"></i>
+            <p>CSS</p>
+          </div>
+          <div class="technologies">
+            <i class="fab fa-js-square fa-4x tech"></i>
+            <p>JAVASCRIPT</p>
+          </div>
+          <div class="technologies">
+            <i class="fab fa-bootstrap fa-4x tech"></i>
+            <p>BOOTSTRAP</p>
+          </div>
+          <div class="technologies">
+            <i class="fab fa-git-square fa-4x tech"></i>
+            <p>GIT</p>
+          </div>
+          <div class="technologies">
+            <i class="fab fa-github-square fa-4x tech"></i>
+            <p>GITHUB</p>
+          </div>
+        </div>
+      </div>
+      <!-- Project Section -->
+      <div id="projectSection">
+        <h1 class="lines"><span>PROJECTS</span></h1>
         <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <img src="Img/me.JPG" alt="Sophia picture">
-          </div>
-          <div class="col-md-6">
-            <p>Hi! I'm Sophia, I am a keen learner based in London, wanting to start a career in Software Engineering. <br>
-              <br> I am passionate about developing and growing as an individual and I enjoy learning new things, which is what initially sparked my interest in a career in tech.
-              Since then I have taken part in various online courses including an eight week introduction to web development course run by <a href="https://codefirstgirls.org.uk/" target="_blank">Code First Girls</a>.<br>
-              <br>I most recently graduated from the Tech Talent Accelerator course run by <a href="https://uk.generation.org/" target="_blank">Generation UK</a>,
-              where I have learnt core IT and coding skills including technologies such as HTML, CSS and JavaScript as well as using Git for version control and GitHub.<br>
-              <br>The course has developed both my technical abilities and soft skills. It also provided me with opportunities to be creative and collaborate with team members,
-              whilst equipping me with the knowledge to feel confident to kickstart my career.
-            </p>
-            <a href="cv/Sophia McGeown CV.pdf" target="_blank"><button type="button" class="btn resume">Download Resume</button></a>
-          </div>
-        </div>
-      </div>
-    </div>
-   <!-- Skills Section -->
-    <div id="skills">
-      <div class="jumbotron">
-        <p class="skills-heading">Technologies I have been using:</p>
-        <div class="technologies">
-          <i class="fab fa-html5 fa-4x tech"></i>
-          <p>HTML</p>
-        </div>
-        <div class="technologies">
-          <i class="fab fa-css3-alt fa-4x tech"></i>
-          <p>CSS</p>
-        </div>
-        <div class="technologies">
-          <i class="fab fa-js-square fa-4x tech"></i>
-          <p>JAVASCRIPT</p>
-        </div>
-        <div class="technologies">
-          <i class="fab fa-bootstrap fa-4x tech"></i>
-          <p>BOOTSTRAP</p>
-        </div>
-        <div class="technologies">
-          <i class="fab fa-git-square fa-4x tech"></i>
-          <p>GIT</p>
-        </div>
-      </div>
-    </div>
-    <!-- Project Section -->
-    <div id="projectSection">
-      <h1 class="lines"><span>PROJECTS</span></h1>
-      <div class="row">
-        <div class="col">
-          <div class="card border border-danger">
-            <div class="card-body">
-              <h5 class="card-title">Tourist Attraction Website</h5>
-              <hr>
-              <img src="Img/cfg-pic.png" class="card-img-top" alt="website-img">
-              <p class="card-text">My first website I helped to build using HTML & CSS whilst participating in the intro to web development course with
-                Code First Girls. This project allowed me to put the skills I had learnt into practise, it also gave me the opportunity to work collaboratively
-                with my group members.
-              </p>
-              <a href="https://github.com/Soph95/cfg-project-website" target="_blank" class="btn btnleft">View Github</a>
-              <a href="https://soph95.github.io/cfg-project-website/" target="_blank" class="btn">View website</a>
+          <div class="col">
+            <div class="card border border-danger">
+              <div class="card-body">
+                <h4 class="card-title">Tourist Attraction Website</h4>
+                <hr />
+                <img
+                  src="Img/cfg-pic.png"
+                  class="card-img-top"
+                  alt="website-img"
+                />
+                <p class="card-text">
+                  My first website I helped to build using HTML & CSS whilst
+                  participating in the intro to web development course with Code
+                  First Girls. This project allowed me to put the skills I had
+                  learnt into practise, it also gave me the opportunity to work
+                  collaboratively with my group members.
+                </p>
+                <a
+                  href="https://github.com/Soph95/cfg-project-website"
+                  target="_blank"
+                  class="btn btnleft"
+                  >View Github</a
+                >
+                <a
+                  href="https://soph95.github.io/cfg-project-website/"
+                  target="_blank"
+                  class="btn"
+                  >View website</a
+                >
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card border border-danger">
-            <div class="card-body">
-              <h5 class="card-title">To Do List</h5>
-              <hr>
-              <img src="Img/to-do-img.png" class="card-img" alt="to-do-img">
-              <p class="card-text">This was the final project on the Generation UK course. A to do list built using HTML, CSS, Bootstrap & JavaScript.
-                This project gave me the opportunity to work more independently and focus on putting all of the JavaScript knowledge learnt on the course into
-                this task.
-              </p>
-              <a href="https://github.com/Soph95/ToDo-List" target= "_blank" class="btn btnleft">View Github</a>
-              <a href="https://soph95.github.io/ToDo-List/" target= "_blank" class="btn">View project</a>
+          <div class="col">
+            <div class="card border border-danger">
+              <div class="card-body">
+                <h4 class="card-title">To Do List</h4>
+                <hr />
+                <img src="Img/to-do-img.png" class="card-img" alt="to-do-img" />
+                <p class="card-text">
+                  This was the final project on the Generation UK course. A to
+                  do list built using HTML, CSS, Bootstrap & JavaScript. This
+                  project gave me the opportunity to work more independently and
+                  focus on putting all of the JavaScript knowledge learnt on the
+                  course into this task.
+                </p>
+                <a
+                  href="https://github.com/Soph95/ToDo-List"
+                  target="_blank"
+                  class="btn btnleft"
+                  >View Github</a
+                >
+                <a
+                  href="https://soph95.github.io/ToDo-List/"
+                  target="_blank"
+                  class="btn"
+                  >View project</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Contact Section -->
+
+      <footer id="contactSection">
+        <h3>CONTACT</h3>
+        <hr />
+        <p>Feel free to contact me!</p>
+        <a href="mailto:sophia.mcgeown@outlook.com"
+          ><i class="fas fa-envelope socials"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/sophia-mcgeown-04b3291b9/"
+          target="_blank"
+          ><i class="fab fa-linkedin socials"></i
+        ></a>
+        <a href="https://github.com/Soph95" target="_blank"
+          ><i class="fab fa-github-square socials"></i
+        ></a>
+        <p>Built by Sophia McGeown</p>
+      </footer>
     </div>
 
-    <!-- Contact Section -->
-
-    <footer id="contactSection">
-      <h3>CONTACT</h3>
-      <hr>
-      <p>Feel free to contact me!</p>
-      <a href="mailto:sophia.mcgeown@outlook.com"><i class="fas fa-envelope socials"></i></a>
-      <a href="https://www.linkedin.com/in/sophia-mcgeown-04b3291b9/" target="_blank"><i class="fab fa-linkedin socials"></i></a>
-      <a href="https://github.com/Soph95" target="_blank"><i class="fab fa-github-square socials"></i></a>
-      <p>Built by Sophia McGeown</p>
-    </footer>
-  </div>
-
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
 </html>
